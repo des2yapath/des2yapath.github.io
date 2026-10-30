@@ -1,0 +1,696 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f6f0">
+  <meta name="description" content="Divyansh Ahuja — CS student at Amity Noida specializing in Cyber Security. Systems, full-stack backends, and AI pipelines.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="divyansh ahuja.dev">
+  <meta property="og:description" content="CS student & developer. Systems, full-stack backends, and AI pipelines.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+  <title>divyansh ahuja</title>
+</head>
+<body class="site-shell">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header"><nav aria-label="Main navigation">
+    <a class="brand" href="#home" data-open="overview">divyansh ahuja<span aria-hidden="true">.</span></a>
+    <div class="nav-links">
+      <a href="#about" data-open="about">About</a>
+      <a href="#projects" data-open="projects">Projects</a>
+      <a href="#stack" data-open="stack">Stack</a>
+      <a href="#exp" data-open="exp">Work</a>
+      <a href="#contact" data-open="contact">Contact</a>
+    </div>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">◐</button>
+  </nav></header>
+
+  <main id="main"><div class="experience">
+    <!-- Phone Column -->
+    <div class="phone-column">
+      <div class="phone" aria-label="Interactive preview of Divyansh's work">
+        <div class="phone-screen">
+          <div class="phone-status">
+            <span id="phone-clock">9:41</span>
+            <span class="dynamic-island" aria-hidden="true"></span>
+            <span aria-hidden="true">● ▰</span>
+          </div>
+
+          <!-- Phone Home Screen -->
+          <div id="phone-home-screen" class="phone-home-screen">
+            <div class="profile-widget">
+              <div class="avatar-frame"><div class="avatar-initials">DA</div></div>
+              <div>
+                <span class="screen-kicker">HEY, I'M</span>
+                <strong>Divyansh Ahuja</strong>
+                <span>CS Cyber Sec · Backend &amp; Systems</span>
+              </div>
+            </div>
+
+            <div class="motto-widget">
+              <span aria-hidden="true">⚡</span>
+              <p>Write clean code.<br>Fix broken things.</p>
+            </div>
+
+            <a class="projects-widget" href="#projects" data-open="projects">
+              <span>SELECTED WORK</span>
+              <strong>10 projects<br>built in 2026 <span aria-hidden="true">↗</span></strong>
+            </a>
+
+            <!-- App Grid with 12 items -->
+            <div class="app-grid" aria-label="Explore sections">
+              <a class="app-launcher" href="#codeduels" data-open="codeduels"><span class="app-icon icon-codeduels" aria-hidden="true">⚔</span><span class="app-label">CodeDuels</span></a>
+              <a class="app-launcher" href="#minilab" data-open="minilab"><span class="app-icon icon-minilab" aria-hidden="true">⚙</span><span class="app-label">MiniLab</span></a>
+              <a class="app-launcher" href="#asksql" data-open="asksql"><span class="app-icon icon-asksql" aria-hidden="true">⌨</span><span class="app-label">AskSQL</span></a>
+              <a class="app-launcher" href="#emailtriage" data-open="emailtriage"><span class="app-icon icon-emailtriage" aria-hidden="true">🛡</span><span class="app-label">SOC Triage</span></a>
+              <a class="app-launcher" href="#clearbrief" data-open="clearbrief"><span class="app-icon icon-clearbrief" aria-hidden="true">✦</span><span class="app-label">ClearBrief</span></a>
+              <a class="app-launcher" href="#ytrag" data-open="ytrag"><span class="app-icon icon-ytrag" aria-hidden="true">▶</span><span class="app-label">YT RAG</span></a>
+              <a class="app-launcher" href="#essay" data-open="essay"><span class="app-icon icon-essay" aria-hidden="true">✍</span><span class="app-label">AI Essay</span></a>
+              <a class="app-launcher" href="#aitasks" data-open="aitasks"><span class="app-icon icon-aitasks" aria-hidden="true">✓</span><span class="app-label">AI Tasks</span></a>
+              <a class="app-launcher" href="#about" data-open="about"><span class="app-icon icon-about" aria-hidden="true">✳</span><span class="app-label">About</span></a>
+              <a class="app-launcher" href="#stack" data-open="stack"><span class="app-icon icon-stack" aria-hidden="true">{ }</span><span class="app-label">Stack</span></a>
+              <a class="app-launcher" href="#exp" data-open="exp"><span class="app-icon icon-exp" aria-hidden="true">◈</span><span class="app-label">Work</span></a>
+              <a class="app-launcher" href="#contact" data-open="contact"><span class="app-icon icon-contact" aria-hidden="true">✉</span><span class="app-label">Contact</span></a>
+            </div>
+
+            <!-- Phone Dock -->
+            <div class="phone-dock">
+              <a href="https://github.com/des2yapath" target="_blank" rel="noopener noreferrer" aria-label="Divyansh on GitHub">GH</a>
+              <a href="mailto:divyanshahuja725@gmail.com" aria-label="Email Divyansh">✉</a>
+              <a href="#home" data-open="overview" aria-label="Home">⌂</a>
+            </div>
+          </div>
+
+          <!-- Slide-up Phone Sheet -->
+          <section id="phone-sheet" class="phone-sheet" aria-labelledby="phone-sheet-title" hidden>
+            <div class="sheet-toolbar">
+              <button id="phone-back" type="button" aria-label="Back to home">←</button>
+              <span id="phone-sheet-title"></span>
+            </div>
+            <div id="phone-sheet-body" class="sheet-body"></div>
+            <button id="phone-home" class="home-indicator" type="button" aria-label="Return to home"><span></span></button>
+          </section>
+        </div>
+      </div>
+      <p class="phone-hint">Tap any icon to take a closer look <span aria-hidden="true">↗</span></p>
+    </div>
+
+    <!-- Detail Column (Desktop Panels) -->
+    <div class="detail-column"><div id="detail-panels">
+
+      <!-- 1. OVERVIEW / HOME -->
+      <section class="detail-panel" data-panel="overview" id="home">
+        <p class="eyebrow">NEW DELHI, INDIA <span aria-hidden="true">⚡</span></p>
+        <h1 class="detail-title">Hey, I'm<br><em>Divyansh.</em></h1>
+        <p class="detail-lede">I'm a CS undergrad focused on Cyber Security at Amity Noida. I write asynchronous backend systems, distributed services, and AI data pipelines.</p>
+        <p class="detail-copy">In the last 5 months, I've built a real-time competitive programming platform that served 2,000+ users on AWS ECS, a simulated robotic lab controller with synthetic fault injection, a SOC tier-1 phishing triage engine, and an accessibility tool for neurodivergent students.</p>
+        <div class="detail-actions">
+          <a class="pill-link" href="#projects" data-open="projects">Explore all 10 projects <span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="#about" data-open="about">A little about me →</a>
+        </div>
+        <p class="detail-meta">B.TECH CS (CYBER SECURITY) · AMITY UNIVERSITY NOIDA · 2023–2027</p>
+      </section>
+
+      <!-- 2. ABOUT -->
+      <section class="detail-panel" data-panel="about" id="about">
+        <p class="eyebrow">01 / WHO I AM</p>
+        <h2 class="detail-title">Curious by default.</h2>
+        <p class="detail-lede">I enjoy understanding how things break under real-world pressure.</p>
+        <p class="detail-copy">I'm in my second year of Computer Science with a specialization in Cyber Security at Amity School of Engineering and Technology (Noida). I gravitate toward the lower and messier layers of software: network protocols, AST query parsing, concurrency mutexes, and cloud infrastructure.</p>
+        <p class="detail-copy">During my internship at Cords Cable Industries (Apr–Jul 2026), I shipped 11 production FastAPI endpoints and refactored a tangled 5,400-line platform. I untangled duplicated booking and payment logic scattered across 12 files and patched security holes where member hashes were exposed. That experience taught me that resilience matters much more than cleverness.</p>
+        <p class="detail-copy">When I'm not writing code, I'm analyzing threat intel, reading systems RFCs, or competing in hackathons.</p>
+        <div class="detail-actions">
+          <a class="pill-link" href="https://github.com/des2yapath" target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a>
+          <a class="text-link" href="#contact" data-open="contact">Get in touch →</a>
+        </div>
+      </section>
+
+      <!-- 3. PROJECTS DIRECTORY -->
+      <section class="detail-panel" data-panel="projects" id="projects">
+        <p class="eyebrow">02 / SELECTED WORK</p>
+        <h2 class="detail-title">Things I've built.</h2>
+        <p class="detail-lede">10 projects built in the last 5–6 months spanning systems, cloud, security, and full-stack engineering.</p>
+
+        <div class="project-list">
+          <!-- 1. CodeDuels -->
+          <article class="project-card" data-category="systems">
+            <span class="project-number">01 / SYSTEMS · CLOUD</span>
+            <div class="project-info">
+              <h3><a href="#codeduels" data-open="codeduels">CodeDuels — 1v1 DSA Platform ↗</a></h3>
+              <p>Real-time 1v1 competitive programming platform serving 2,000+ users. Terraform-managed AWS ECS microservices, Redis, and SQS.</p>
+              <span>TypeScript · AWS ECS · Terraform · Redis · Postgres · Docker</span>
+            </div>
+            <div class="detail-actions">
+              <a class="text-link" href="https://coding-platform-uyo1.vercel.app" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+              <a class="text-link" href="https://github.com/des2yapath/coding-platform" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+          </article>
+
+          <!-- 2. MiniLab -->
+          <article class="project-card" data-category="systems">
+            <span class="project-number">02 / SYSTEMS · ROBOTICS</span>
+            <div class="project-info">
+              <h3><a href="#minilab" data-open="minilab">Mini Lab Orchestrator ↗</a></h3>
+              <p>Asynchronous robotic lab workcell controller with CRC32-framed wire protocol, spatial zone mutex, and synthetic fault injection.</p>
+              <span>Python (asyncio) · Wire Protocol · CRC32 · Concurrency · CI/CD</span>
+            </div>
+            <a class="text-link" href="https://github.com/des2yapath/minilab-orchestrator" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </article>
+
+          <!-- 3. AskSQL -->
+          <article class="project-card" data-category="web">
+            <span class="project-number">03 / WEB · DATA SECURITY</span>
+            <div class="project-info">
+              <h3><a href="#asksql" data-open="asksql">AskSQL — Safe NL to Postgres ↗</a></h3>
+              <p>Natural language queries converted to validated, read-only SQL with sqlglot AST parsing and 13 automated injection test cases.</p>
+              <span>React · TypeScript · FastAPI · PostgreSQL · sqlglot</span>
+            </div>
+            <a class="text-link" href="https://github.com/des2yapath/asksql" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </article>
+
+          <!-- 4. Email Triage -->
+          <article class="project-card" data-category="security">
+            <span class="project-number">04 / CYBER SECURITY · SOC</span>
+            <div class="project-info">
+              <h3><a href="#emailtriage" data-open="emailtriage">SOC Tier 1 Email Triaging Pipeline ↗</a></h3>
+              <p>Automated phishing analysis pipeline. Parses .eml, defangs IOCs, and queries VirusTotal v3 &amp; AbuseIPDB v2 for weighted risk scores.</p>
+              <span>Python · Threat Intel · VirusTotal · AbuseIPDB · Pytest</span>
+            </div>
+            <a class="text-link" href="https://github.com/des2yapath/email-triage-pipeline" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </article>
+
+          <!-- 5. ClearBrief -->
+          <article class="project-card" data-category="web">
+            <span class="project-number">05 / ACCESSIBILITY · WEB</span>
+            <div class="project-info">
+              <h3><a href="#clearbrief" data-open="clearbrief">ClearBrief — ADHD Brief Condenser ↗</a></h3>
+              <p>Turns dense, intimidating assignment briefs into calm Brief Cards with a 5-minute actionable first step. Evaluated with axe-core.</p>
+              <span>Python 3.11 · FastAPI · Playwright · Vite · Accessibility</span>
+            </div>
+            <a class="text-link" href="https://github.com/des2yapath/ClearBrief" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </article>
+
+          <!-- 6. YouTube RAG -->
+          <article class="project-card" data-category="ai">
+            <span class="project-number">06 / AI · SEARCH</span>
+            <div class="project-info">
+              <h3><a href="#ytrag" data-open="ytrag">YouTube Knowledge Engine (RAG) ↗</a></h3>
+              <p>Transcripts scraped from playlists and channels, indexed for semantic Q&amp;A with exact timestamp citation links. Runs offline in CI.</p>
+              <span>Python · FastAPI · Next.js · Embeddings · Vector Search</span>
+            </div>
+            <a class="text-link" href="https://github.com/des2yapath/YouTube-RAG-WebScraper" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </article>
+
+          <!-- 7. Essay Detector -->
+          <article class="project-card" data-category="ai">
+            <span class="project-number">07 / AI · STATISTICAL ANALYSIS</span>
+            <div class="project-info">
+              <h3><a href="#essay" data-open="essay">Evidence-Based AI Essay Detector ↗</a></h3>
+              <p>Analyzes admissions essays via 40+ stylometric metrics &amp; frozen GPT-2 signals Z-scored against 480 human baselines. i12 Hackathon.</p>
+              <span>Python · FastAPI · GPT-2 Signals · Statistical Baselines</span>
+            </div>
+            <a class="text-link" href="https://github.com/des2yapath/Essay-detector" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </article>
+
+          <!-- 8. AI Tasks -->
+          <article class="project-card" data-category="web">
+            <span class="project-number">08 / WEB APP · PRODUCTIVITY</span>
+            <div class="project-info">
+              <h3><a href="#aitasks" data-open="aitasks">Tasks — AI Cross-Device Kanban ↗</a></h3>
+              <p>Paste messy notes or drop screenshots; extracts structured tasks into a review gate before inserting. Real-time Supabase sync.</p>
+              <span>Next.js 16 · TypeScript · Supabase · Tailwind CSS v4</span>
+            </div>
+            <a class="text-link" href="https://github.com/des2yapath/ai-tasks" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </article>
+
+          <!-- 9. EpicEventz 360 -->
+          <article class="project-card" data-category="systems">
+            <span class="project-number">09 / CLOUD · APEX</span>
+            <div class="project-info">
+              <h3><a href="#epiceventz" data-open="epiceventz">EpicEventz 360 Platform ↗</a></h3>
+              <p>Unified high-concurrency event operations, discovery, tier pricing, and gate check-in platform engineered on Salesforce Core.</p>
+              <span>Salesforce Core · Apex · LWC · High Concurrency</span>
+            </div>
+            <a class="text-link" href="https://github.com/des2yapath/EpicEventz" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </article>
+
+          <!-- 10. AI Job Search -->
+          <article class="project-card" data-category="ai">
+            <span class="project-number">10 / AI · AGENTIC WORKFLOW</span>
+            <div class="project-info">
+              <h3><a href="#jobsearch" data-open="jobsearch">AI Job Search Framework ↗</a></h3>
+              <p>Automated application framework built on Claude Code. Evaluates postings, tailors CVs with ATS alignment, and drafts cover letters.</p>
+              <span>Claude Code · Prompt Engineering · Shell · Workflow Automation</span>
+            </div>
+            <a class="text-link" href="https://github.com/des2yapath/ai-job-search" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </article>
+        </div>
+
+        <p class="detail-footer">
+          <a class="text-link" href="https://github.com/des2yapath?tab=repositories" target="_blank" rel="noopener noreferrer">All repositories on GitHub ↗</a>
+        </p>
+      </section>
+
+      <!-- 4. TECH STACK -->
+      <section class="detail-panel" data-panel="stack" id="stack">
+        <p class="eyebrow">03 / THE TOOLKIT</p>
+        <h2 class="detail-title">Tools of the trade.</h2>
+        <p class="detail-lede">Tools and platforms I've worked with across systems, security, and full-stack builds.</p>
+
+        <h3>Languages</h3>
+        <ul class="tag-list">
+          <li>Python (asyncio)</li>
+          <li>TypeScript / JavaScript</li>
+          <li>SQL (PostgreSQL)</li>
+          <li>Java</li>
+          <li>Apex</li>
+          <li>Rust (learning)</li>
+        </ul>
+
+        <h3>Backend &amp; Systems</h3>
+        <ul class="tag-list">
+          <li>FastAPI / Uvicorn</li>
+          <li>Wire Protocols &amp; CRC32</li>
+          <li>Concurrency &amp; Mutexes</li>
+          <li>REST API Design</li>
+          <li>sqlglot (AST parsing)</li>
+          <li>Vector Search / Embeddings</li>
+        </ul>
+
+        <h3>Cloud &amp; Infrastructure</h3>
+        <ul class="tag-list">
+          <li>AWS (ECS Fargate, SQS, ElastiCache, S3, RDS)</li>
+          <li>Terraform (IaC)</li>
+          <li>Docker &amp; Compose</li>
+          <li>Supabase / Neon</li>
+          <li>Vercel &amp; Render</li>
+          <li>GitHub Actions CI/CD</li>
+        </ul>
+
+        <h3>Security &amp; Testing</h3>
+        <ul class="tag-list">
+          <li>SOC Alert Triage</li>
+          <li>IOC Extraction &amp; Defanging</li>
+          <li>Threat Intel (VirusTotal, AbuseIPDB)</li>
+          <li>pytest (unit &amp; integration)</li>
+          <li>Playwright &amp; axe-core (a11y)</li>
+          <li>Postman</li>
+        </ul>
+
+        <h3>Frontend</h3>
+        <ul class="tag-list">
+          <li>React</li>
+          <li>Next.js (App Router)</li>
+          <li>Tailwind CSS</li>
+          <li>Vite</li>
+          <li>Salesforce LWC</li>
+        </ul>
+      </section>
+
+      <!-- 5. WORK & EXPERIENCE -->
+      <section class="detail-panel" data-panel="exp" id="exp">
+        <p class="eyebrow">04 / BACKGROUND</p>
+        <h2 class="detail-title">Where I've worked.</h2>
+        <p class="detail-lede">Software Developer Intern · Cords Cable Industries · Apr – Jul 2026 · Delhi, India</p>
+        <p class="detail-copy">Joined a backend team working on an internal booking and scheduling service. When I arrived, booking, member validation, and payment checks were duplicated across 12 different files in a 5,400-line codebase. I unified them into 4 shared modular services so business rules only exist in one place.</p>
+        <p class="detail-copy">Built 11+ new FastAPI endpoints with strict Pydantic schemas, closed security gaps on user and admin routes that exposed raw password hashes, and resolved a runaway client polling loop that was overloading the database during peak hours.</p>
+        
+        <div class="exp-edu">
+          <h3>Education</h3>
+          <p class="detail-copy"><strong>Amity School of Engineering &amp; Technology, Noida</strong><br>B.Tech in Computer Science &amp; Engineering (Cyber Security) · 2023 – 2027</p>
+          <p class="detail-copy"><strong>DL DAV Model School, Shalimar Bagh, Delhi</strong><br>CBSE Board · 2023</p>
+
+          <h3>Recognition &amp; Certifications</h3>
+          <p class="detail-copy"><strong>I12 Hackathon by Callus Company</strong> · Final Round Selection (Top teams among 1,000+ applicants) · Aug 2026<br>Built the YouTube transcript RAG ingestion engine in 48 hours and followed up with the statistical AI essay detector.</p>
+          <p class="detail-copy"><strong>NPTEL: Python for Data Science</strong> · IIT Madras (Prof. Raghunathan Rengasamy) · March 2024</p>
+        </div>
+
+        <div class="detail-actions">
+          <a class="pill-link" href="https://github.com/des2yapath" target="_blank" rel="noopener noreferrer">View GitHub Activity ↗</a>
+        </div>
+      </section>
+
+      <!-- 6. CONTACT -->
+      <section class="detail-panel" data-panel="contact" id="contact">
+        <p class="eyebrow">05 / GET IN TOUCH</p>
+        <h2 class="detail-title">Have a project?<br>Let's talk.</h2>
+        <p class="detail-lede">Whether you want to collaborate on systems, discuss backend opportunities, or just compare notes — my inbox is open.</p>
+        <div class="detail-actions">
+          <a class="pill-link" href="mailto:divyanshahuja725@gmail.com">Email me ↗</a>
+          <button id="copy-email" type="button" data-email="divyanshahuja725@gmail.com">Copy email ⧉</button>
+        </div>
+        <span id="copy-status" role="status" aria-live="polite"></span>
+        <p class="detail-meta">
+          divyanshahuja725@gmail.com · +91 7703877993 · 
+          <a href="https://github.com/des2yapath" target="_blank" rel="noopener noreferrer">GitHub ↗</a> · 
+          <a href="https://www.linkedin.com/in/divyansh-ahuja" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </p>
+      </section>
+
+      <!-- ================= PROJECT DETAIL PANELS ================= -->
+
+      <!-- Detail: CodeDuels -->
+      <section class="detail-panel" data-panel="codeduels" id="codeduels">
+        <p class="eyebrow">01 / SYSTEMS · CLOUD</p>
+        <h2 class="detail-title">CodeDuels.</h2>
+        <p class="detail-lede">Real-time 1v1 competitive programming platform where engineers solve DSA problems in head-to-head live battles.</p>
+        <ul class="tag-list"><li>TypeScript</li><li>AWS ECS Fargate</li><li>Terraform</li><li>ElastiCache Redis</li><li>RDS PostgreSQL</li><li>AWS SQS</li></ul>
+        <p class="detail-copy">Built to explore real-world distributed architectures under user load. The platform has served <strong>2,000+ registered users</strong> and evolved from an EC2 single-box deployment into a fully provisioned Terraform infrastructure.</p>
+        <p class="detail-copy">Live matchmaking and websocket synchronization run through Redis Pub/Sub, while asynchronous code evaluation tasks are queued on AWS SQS and dispatched to isolated worker containers. Web assets and static bundles are delivered over AWS CloudFront via S3.</p>
+        <div class="detail-actions">
+          <a class="pill-link" href="https://coding-platform-uyo1.vercel.app" target="_blank" rel="noopener noreferrer">Launch Live Platform ↗</a>
+          <a class="text-link" href="https://github.com/des2yapath/coding-platform" target="_blank" rel="noopener noreferrer">View GitHub Repository ↗</a>
+          <a class="text-link" href="#projects" data-open="projects">← All projects</a>
+        </div>
+      </section>
+
+      <!-- Detail: MiniLab -->
+      <section class="detail-panel" data-panel="minilab" id="minilab">
+        <p class="eyebrow">02 / SYSTEMS · ROBOTICS</p>
+        <h2 class="detail-title">Mini Lab Orchestrator.</h2>
+        <p class="detail-lede">An asynchronous Python controller orchestrating a simulated robotic laboratory workcell under transport fault injection.</p>
+        <ul class="tag-list"><li>Python (asyncio)</li><li>CRC32 Wire Protocol</li><li>State Machine</li><li>Fault Injection</li><li>Concurrency</li></ul>
+        <p class="detail-copy">Orchestrates multiple independent lab devices: two multi-axis positioning arms, a precision fluid dispensing pump, and an active reaction heater. Built on Python's native <code>asyncio</code> event loop without heavy external frameworks.</p>
+        <p class="detail-copy">Implements a strict CRC32-checksummed binary wire protocol with sequence numbering, acknowledgement handshakes (ACK), backoff retries, and idempotent reply caches. It enforces spatial zone mutual exclusion to prevent physical arm collisions, and features instant emergency stop (e-stop) broadcast propagation when synthetic packet drops or latency spikes are injected.</p>
+        <div class="detail-actions">
+          <a class="pill-link" href="https://github.com/des2yapath/minilab-orchestrator" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          <a class="text-link" href="#projects" data-open="projects">← All projects</a>
+        </div>
+      </section>
+
+      <!-- Detail: AskSQL -->
+      <section class="detail-panel" data-panel="asksql" id="asksql">
+        <p class="eyebrow">03 / WEB · DATA SECURITY</p>
+        <h2 class="detail-title">AskSQL.</h2>
+        <p class="detail-lede">Converts natural-language questions into safe, validated, read-only SQL queries executed against Postgres.</p>
+        <ul class="tag-list"><li>React</li><li>TypeScript</li><li>FastAPI</li><li>PostgreSQL</li><li>sqlglot</li><li>Neon</li></ul>
+        <p class="detail-copy">Instead of naive string regex filtering, AskSQL uses <code>sqlglot</code> to construct an Abstract Syntax Tree (AST) of the generated query. It validates statement types, enforces a strict schema allowlist, and unconditionally rejects write mutations, drop cascades, and subquery tricks.</p>
+        <p class="detail-copy">Backed by 13 automated security tests specifically targeting SQL injection and privilege escalation vectors. Executed under an isolated, least-privilege read-only role on Neon Postgres. Bundle size was reduced by 60% (615 KB → 248 KB) through route-based code splitting.</p>
+        <div class="detail-actions">
+          <a class="pill-link" href="https://github.com/des2yapath/asksql" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          <a class="text-link" href="#projects" data-open="projects">← All projects</a>
+        </div>
+      </section>
+
+      <!-- Detail: Email Triage -->
+      <section class="detail-panel" data-panel="emailtriage" id="emailtriage">
+        <p class="eyebrow">04 / CYBER SECURITY · SOC</p>
+        <h2 class="detail-title">SOC Tier 1 Email Triage.</h2>
+        <p class="detail-lede">Automated security alert ingestion and phishing triage pipeline built to eliminate manual Tier 1 SOC analyst fatigue.</p>
+        <ul class="tag-list"><li>Python 3.10+</li><li>Threat Intelligence</li><li>VirusTotal v3</li><li>AbuseIPDB v2</li><li>IOC Extraction</li></ul>
+        <p class="detail-copy">Parses raw <code>.eml</code> files, handles complex multipart MIME payloads, and extracts Indicators of Compromise (IOCs) including suspect URLs, domain names, IPv4 addresses, and attachment SHA256 hashes.</p>
+        <p class="detail-copy">Automatically defangs all extracted artifacts (e.g. <code>hxxp://</code>) before querying threat feeds. Enriches findings against VirusTotal v3 and AbuseIPDB v2 APIs with rate-limit handling, calculates an explainable weighted risk score (0–100), and exports structured JSON triage dossiers alongside an executive dashboard.</p>
+        <div class="detail-actions">
+          <a class="pill-link" href="https://github.com/des2yapath/email-triage-pipeline" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          <a class="text-link" href="#projects" data-open="projects">← All projects</a>
+        </div>
+      </section>
+
+      <!-- Detail: ClearBrief -->
+      <section class="detail-panel" data-panel="clearbrief" id="clearbrief">
+        <p class="eyebrow">05 / ACCESSIBILITY · WEB</p>
+        <h2 class="detail-title">ClearBrief.</h2>
+        <p class="detail-lede">Accessibility-first engine that distills wall-of-text university assignment briefs into calm, actionable first steps.</p>
+        <ul class="tag-list"><li>Python 3.11</li><li>FastAPI</li><li>Playwright</li><li>axe-core</li><li>Vite</li></ul>
+        <p class="detail-copy">Designed around the needs of students with ADHD and dyslexia who experience executive dysfunction when confronted with multi-page assignment descriptions. It breaks the assignment into key deliverables, grading criteria, and an immediate low-friction task that takes 5 minutes to start.</p>
+        <p class="detail-copy">Accessibility is verified as a code-level regression test: the test suite runs headless Playwright and injects a local <code>axe-core</code> audit engine directly to guarantee zero WCAG violations.</p>
+        <div class="detail-actions">
+          <a class="pill-link" href="https://github.com/des2yapath/ClearBrief" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          <a class="text-link" href="#projects" data-open="projects">← All projects</a>
+        </div>
+      </section>
+
+      <!-- Detail: YouTube RAG -->
+      <section class="detail-panel" data-panel="ytrag" id="ytrag">
+        <p class="eyebrow">06 / AI · SEARCH</p>
+        <h2 class="detail-title">YouTube Knowledge Engine.</h2>
+        <p class="detail-lede">Extracts video transcripts from channels and playlists, creates dense embeddings, and powers semantic Q&amp;A with timestamped citations.</p>
+        <ul class="tag-list"><li>Python</li><li>FastAPI</li><li>Next.js</li><li>Deterministic Embeddings</li><li>GitHub Actions</li></ul>
+        <p class="detail-copy">Solves the challenge of indexing large YouTube playlists without UI timeouts by implementing an asynchronous, resumable ingestion background pipeline with a job progress polling API.</p>
+        <p class="detail-copy">Engineered with a dependency-free default mode: uses deterministic hash embeddings and extractive matching so the full test suite runs locally and in GitHub Actions CI without requiring paid API keys. Supports upgrading to sentence-transformers or Gemini models on demand.</p>
+        <div class="detail-actions">
+          <a class="pill-link" href="https://github.com/des2yapath/YouTube-RAG-WebScraper" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          <a class="text-link" href="#projects" data-open="projects">← All projects</a>
+        </div>
+      </section>
+
+      <!-- Detail: Essay Detector -->
+      <section class="detail-panel" data-panel="essay" id="essay">
+        <p class="eyebrow">07 / AI · STATISTICAL ANALYSIS</p>
+        <h2 class="detail-title">AI Essay Detector.</h2>
+        <p class="detail-lede">Transparent, evidence-based AI writing detector using verifiable statistical signal extraction rather than a black-box model.</p>
+        <ul class="tag-list"><li>Python</li><li>FastAPI</li><li>Next.js</li><li>GPT-2 Medium</li><li>Pytest (200+ tests)</li></ul>
+        <p class="detail-copy">Built for the i12 HR Drive Hackathon (Callus). Instead of relying on subjective "LLM-as-a-judge" verdicts, it extracts 40+ deterministic stylometric features: sentence length variance, punctuation entropy, and token probability distributions.</p>
+        <p class="detail-copy">GPT-2 Medium is used strictly as a frozen measurement instrument (one forward pass, per-token logprob and rank). Features are Z-scored against length-bucketed baselines from 480 verified human essays, delivering sentence-by-sentence empirical evidence.</p>
+        <div class="detail-actions">
+          <a class="pill-link" href="https://github.com/des2yapath/Essay-detector" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          <a class="text-link" href="#projects" data-open="projects">← All projects</a>
+        </div>
+      </section>
+
+      <!-- Detail: AI Tasks -->
+      <section class="detail-panel" data-panel="aitasks" id="aitasks">
+        <p class="eyebrow">08 / WEB APP · PRODUCTIVITY</p>
+        <h2 class="detail-title">AI Tasks.</h2>
+        <p class="detail-lede">Cross-device Kanban task manager with client-side AI extraction and a mandatory review stage before saving.</p>
+        <ul class="tag-list"><li>Next.js 16</li><li>TypeScript</li><li>Supabase</li><li>Tailwind CSS v4</li><li>Kanban</li></ul>
+        <p class="detail-copy">Built to eliminate the clutter of dumping raw unstructured meeting notes into traditional todo lists. The client-side AI parser processes pasted notes, screenshots, or markdown files and generates clean, categorized task candidates.</p>
+        <p class="detail-copy">Strict philosophy: nothing is automatically inserted. The user reviews, edits, and re-orders items in a review modal before committing. Once approved, tasks synchronize instantly across devices using Supabase real-time subscriptions.</p>
+        <div class="detail-actions">
+          <a class="pill-link" href="https://github.com/des2yapath/ai-tasks" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          <a class="text-link" href="#projects" data-open="projects">← All projects</a>
+        </div>
+      </section>
+
+      <!-- Detail: EpicEventz -->
+      <section class="detail-panel" data-panel="epiceventz" id="epiceventz">
+        <p class="eyebrow">09 / CLOUD · APEX</p>
+        <h2 class="detail-title">EpicEventz 360 Platform.</h2>
+        <p class="detail-lede">Enterprise event management, discovery, and high-concurrency ticketing architecture built on Salesforce Core.</p>
+        <ul class="tag-list"><li>Apex</li><li>Lightning Web Components</li><li>Salesforce Core</li><li>Governor Limit Tuning</li></ul>
+        <p class="detail-copy">Unifies front-of-house attendee workflows (event discovery LWC, dynamic tier pricing, and QR check-in) with back-of-house operations (event staffing, vendor contracts, sub-sessions, and financial tracking).</p>
+        <p class="detail-copy">Engineered to respect Salesforce governor limits during spike attendee registrations. Implements bulkified Apex trigger handlers, custom rollup recalculations without locking, and responsive Lightning Web Components.</p>
+        <div class="detail-actions">
+          <a class="pill-link" href="https://github.com/des2yapath/EpicEventz" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          <a class="text-link" href="#projects" data-open="projects">← All projects</a>
+        </div>
+      </section>
+
+      <!-- Detail: AI Job Search -->
+      <section class="detail-panel" data-panel="jobsearch" id="jobsearch">
+        <p class="eyebrow">10 / AI · AGENTIC WORKFLOW</p>
+        <h2 class="detail-title">AI Job Search Framework.</h2>
+        <p class="detail-lede">Autonomous job application evaluation, CV customization, and interview preparation engine built on Claude Code.</p>
+        <ul class="tag-list"><li>Claude Code</li><li>Prompt Engineering</li><li>Shell / CLI</li><li>Workflow Automation</li></ul>
+        <p class="detail-copy">An open-source developer framework for systematic job applications. It reads candidate profile YAML/JSON definitions, parses job listings, scores alignment against role requirements, and drafts tailored resume bullet points and cover letters.</p>
+        <p class="detail-copy">Also includes an automated mock-interview simulator that analyzes typical interview questions for specific job specifications and prepares structured STAR-format response guides.</p>
+        <div class="detail-actions">
+          <a class="pill-link" href="https://github.com/des2yapath/ai-job-search" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a>
+          <a class="text-link" href="#projects" data-open="projects">← All projects</a>
+        </div>
+      </section>
+
+    </div></div>
+  </div></main>
+
+  <footer class="site-footer">
+    <span>© <span id="year">2026</span> Divyansh Ahuja · Crafted in New Delhi, India.</span>
+    <span><a href="https://github.com/des2yapath" target="_blank" rel="noopener noreferrer">GitHub ↗</a> · <a href="mailto:divyanshahuja725@gmail.com">Email ↗</a></span>
+  </footer>
+
+  <!-- ================= PHONE TEMPLATES ================= -->
+
+  <!-- Screen: About -->
+  <template data-screen="about">
+    <p class="screen-kicker">WHO I AM / 01</p>
+    <h2 class="screen-title">Hi, I'm Divyansh.</h2>
+    <div class="screen-card">
+      <p class="screen-copy">CS undergrad focused on Cyber Security at Amity Noida (2023–2027). I write resilient backends, protocols, and AI pipelines.</p>
+      <strong>Write clean code. Fix broken things.</strong>
+    </div>
+    <div class="screen-links">
+      <a href="https://github.com/des2yapath" target="_blank" rel="noopener noreferrer">GitHub Profile ↗</a>
+      <a href="#contact" data-open="contact">Get in touch →</a>
+    </div>
+  </template>
+
+  <!-- Screen: Projects List -->
+  <template data-screen="projects">
+    <p class="screen-kicker">SELECTED WORK / 02</p>
+    <h2 class="screen-title">10 Projects.</h2>
+    <p class="screen-copy">Recent builds spanning systems, security, cloud, and AI.</p>
+    <div class="screen-project-list">
+      <a href="#codeduels" data-open="codeduels" data-category="systems">01 <span>CodeDuels (2k users)</span> ↗</a>
+      <a href="#minilab" data-open="minilab" data-category="systems">02 <span>Mini Lab Controller</span> ↗</a>
+      <a href="#asksql" data-open="asksql" data-category="web">03 <span>AskSQL Engine</span> ↗</a>
+      <a href="#emailtriage" data-open="emailtriage" data-category="security">04 <span>SOC Email Triage</span> ↗</a>
+      <a href="#clearbrief" data-open="clearbrief" data-category="web">05 <span>ClearBrief (a11y)</span> ↗</a>
+      <a href="#ytrag" data-open="ytrag" data-category="ai">06 <span>YouTube RAG Engine</span> ↗</a>
+      <a href="#essay" data-open="essay" data-category="ai">07 <span>AI Essay Detector</span> ↗</a>
+      <a href="#aitasks" data-open="aitasks" data-category="web">08 <span>AI Tasks (Kanban)</span> ↗</a>
+      <a href="#epiceventz" data-open="epiceventz" data-category="systems">09 <span>EpicEventz 360</span> ↗</a>
+      <a href="#jobsearch" data-open="jobsearch" data-category="ai">10 <span>AI Job Search</span> ↗</a>
+    </div>
+  </template>
+
+  <!-- Screen: Stack -->
+  <template data-screen="stack">
+    <p class="screen-kicker">WHAT I USE / 03</p>
+    <h2 class="screen-title">My Toolkit.</h2>
+    <div class="screen-card">
+      <p>Core Languages</p>
+      <p class="screen-copy">Python (asyncio) · TypeScript · SQL · Java · Apex</p>
+    </div>
+    <div class="screen-card">
+      <p>Backend &amp; Systems</p>
+      <p class="screen-copy">FastAPI · Wire Protocols &amp; CRC32 · Mutex Concurrency · sqlglot</p>
+    </div>
+    <div class="screen-card">
+      <p>Cloud &amp; Security</p>
+      <p class="screen-copy">AWS (ECS, SQS, Redis) · Terraform · Threat Intel · Docker</p>
+    </div>
+  </template>
+
+  <!-- Screen: Experience -->
+  <template data-screen="exp">
+    <p class="screen-kicker">EXPERIENCE / 04</p>
+    <h2 class="screen-title">Cords Cable Industries</h2>
+    <div class="screen-card">
+      <p>Software Developer Intern · Apr – Jul 2026</p>
+      <p class="screen-copy">Built 11+ FastAPI endpoints, closed member hash leaks, and eliminated duplicate booking logic across 12 files in a 5,400-line service.</p>
+    </div>
+    <div class="screen-card">
+      <p>Education</p>
+      <p class="screen-copy">Amity University Noida · B.Tech CS (Cyber Security) · 2023–2027</p>
+    </div>
+  </template>
+
+  <!-- Screen: Contact -->
+  <template data-screen="contact">
+    <p class="screen-kicker">REACH OUT / 05</p>
+    <h2 class="screen-title">Let's talk.</h2>
+    <div class="screen-card">
+      <p class="screen-copy">Always up for talking systems, security, or interesting engineering challenges.</p>
+      <a href="mailto:divyanshahuja725@gmail.com">divyanshahuja725@gmail.com ↗</a>
+    </div>
+  </template>
+
+  <!-- Project Screens -->
+  <template data-screen="codeduels">
+    <p class="screen-kicker">SYSTEMS · CLOUD / 01</p>
+    <h2 class="screen-title">CodeDuels</h2>
+    <div class="screen-hero hero-codeduels" aria-hidden="true"><div class="mini-terminal"><span>1v1 MATCHMAKING</span><i></i><i></i><i></i><b>LIVE</b></div></div>
+    <p class="screen-copy">Real-time competitive DSA platform with 2,000+ users. Terraform-managed AWS ECS microservices, Redis Pub/Sub, and SQS workers.</p>
+    <div class="screen-links">
+      <a href="https://coding-platform-uyo1.vercel.app" target="_blank" rel="noopener noreferrer">Live Demo ↗</a>
+      <a href="https://github.com/des2yapath/coding-platform" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a href="#projects" data-open="projects">All work →</a>
+    </div>
+  </template>
+
+  <template data-screen="minilab">
+    <p class="screen-kicker">SYSTEMS · ROBOTICS / 02</p>
+    <h2 class="screen-title">Mini Lab Controller</h2>
+    <div class="screen-hero hero-minilab" aria-hidden="true"><div class="mini-terminal"><span>CRC32 FRAME OK</span><i></i><i></i><i></i><b>MUTEX LOCK</b></div></div>
+    <p class="screen-copy">Asynchronous Python workcell controller with CRC32 framing, spatial zone mutual exclusion, and emergency stop fault injection.</p>
+    <div class="screen-links">
+      <a href="https://github.com/des2yapath/minilab-orchestrator" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a href="#projects" data-open="projects">All work →</a>
+    </div>
+  </template>
+
+  <template data-screen="asksql">
+    <p class="screen-kicker">WEB · SECURITY / 03</p>
+    <h2 class="screen-title">AskSQL</h2>
+    <div class="screen-hero hero-nlsql" aria-hidden="true"><div class="mini-terminal"><span>SELECT * FROM ...</span><i></i><i></i><i></i><b>READ ONLY</b></div></div>
+    <p class="screen-copy">Plain English to Postgres SQL queries. Enforces sqlglot AST parsing and schema allowlisting, backed by 13 injection attack tests.</p>
+    <div class="screen-links">
+      <a href="https://github.com/des2yapath/asksql" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a href="#projects" data-open="projects">All work →</a>
+    </div>
+  </template>
+
+  <template data-screen="emailtriage">
+    <p class="screen-kicker">SECURITY / 04</p>
+    <h2 class="screen-title">SOC Email Triage</h2>
+    <div class="screen-hero hero-emailtriage" aria-hidden="true"><div class="mini-terminal"><span>IOC DEFANGED</span><i></i><i></i><i></i><b>RISK: 87/100</b></div></div>
+    <p class="screen-copy">Parses .eml files, defangs IOCs, and fetches threat intel via VirusTotal &amp; AbuseIPDB APIs for automated triage reports.</p>
+    <div class="screen-links">
+      <a href="https://github.com/des2yapath/email-triage-pipeline" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a href="#projects" data-open="projects">All work →</a>
+    </div>
+  </template>
+
+  <template data-screen="clearbrief">
+    <p class="screen-kicker">ACCESSIBILITY / 05</p>
+    <h2 class="screen-title">ClearBrief</h2>
+    <div class="screen-hero hero-clearbrief" aria-hidden="true"><div class="progress-ring"><span>✦</span></div></div>
+    <p class="screen-copy">Distills dense academic briefs into clear, low-friction 5-minute action steps for students with ADHD/dyslexia. Zero axe-core errors.</p>
+    <div class="screen-links">
+      <a href="https://github.com/des2yapath/ClearBrief" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a href="#projects" data-open="projects">All work →</a>
+    </div>
+  </template>
+
+  <template data-screen="ytrag">
+    <p class="screen-kicker">AI · SEARCH / 06</p>
+    <h2 class="screen-title">YouTube RAG</h2>
+    <div class="screen-hero hero-rag" aria-hidden="true"><div class="progress-ring"><span>▶</span></div></div>
+    <p class="screen-copy">Scrapes video transcripts from playlists, builds embeddings, and provides conversational Q&amp;A with exact timestamp citations.</p>
+    <div class="screen-links">
+      <a href="https://github.com/des2yapath/YouTube-RAG-WebScraper" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a href="#projects" data-open="projects">All work →</a>
+    </div>
+  </template>
+
+  <template data-screen="essay">
+    <p class="screen-kicker">AI · ANALYSIS / 07</p>
+    <h2 class="screen-title">AI Essay Detector</h2>
+    <div class="screen-hero hero-essay" aria-hidden="true"><div class="mini-boxes"><span>✍</span><span>✍</span><span>✍</span></div></div>
+    <p class="screen-copy">Evidence-based writing analysis using 40+ stylometric metrics and frozen GPT-2 signals Z-scored against 480 human essay baselines.</p>
+    <div class="screen-links">
+      <a href="https://github.com/des2yapath/Essay-detector" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a href="#projects" data-open="projects">All work →</a>
+    </div>
+  </template>
+
+  <template data-screen="aitasks">
+    <p class="screen-kicker">PRODUCTIVITY / 08</p>
+    <h2 class="screen-title">AI Tasks</h2>
+    <div class="screen-hero hero-tasks" aria-hidden="true"><span>✓</span></div>
+    <p class="screen-copy">Extracts to-dos from messy notes into a review gate before saving. Real-time multi-device sync with Supabase and Kanban boards.</p>
+    <div class="screen-links">
+      <a href="https://github.com/des2yapath/ai-tasks" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a href="#projects" data-open="projects">All work →</a>
+    </div>
+  </template>
+
+  <template data-screen="epiceventz">
+    <p class="screen-kicker">CLOUD / 09</p>
+    <h2 class="screen-title">EpicEventz 360</h2>
+    <div class="screen-hero hero-epiceventz" aria-hidden="true"><div class="mini-terminal"><span>SALESFORCE CORE</span><i></i><i></i><i></i><b>GOVERNOR SAFE</b></div></div>
+    <p class="screen-copy">Unified high-concurrency event operations and attendee ticketing architecture built on Salesforce Core with Apex and LWC.</p>
+    <div class="screen-links">
+      <a href="https://github.com/des2yapath/EpicEventz" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a href="#projects" data-open="projects">All work →</a>
+    </div>
+  </template>
+
+  <template data-screen="jobsearch">
+    <p class="screen-kicker">AI AGENTS / 10</p>
+    <h2 class="screen-title">AI Job Search</h2>
+    <div class="screen-hero hero-jobsearch" aria-hidden="true"><div class="mini-terminal"><span>CLAUDE CODE</span><i></i><i></i><i></i><b>STAR PREP</b></div></div>
+    <p class="screen-copy">Autonomous application framework built on Claude Code. Automates JD parsing, resume tailoring, and interview prep.</p>
+    <div class="screen-links">
+      <a href="https://github.com/des2yapath/ai-job-search" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a href="#projects" data-open="projects">All work →</a>
+    </div>
+  </template>
+
+</body>
+</html>
